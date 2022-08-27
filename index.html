@@ -18,9 +18,21 @@
 <style>
 
 @font-face {
-   font-family: 'Noto Sans TC';
+   font-family: 'Noto Sans CJK hk';
    font-style: normal;
-   src: url('./fonts/NotoSerifTC/NotoSerifTC-Regular.otf') format('opentype');
+   src: url('./fonts/10_NotoSansCJKhk/NotoSansCJKhk-Light.otf') format('opentype');
+}
+
+@font-face {
+   font-family: 'Noto Serif CJK hk';
+   font-style: normal;
+   src: url('./fonts/11_NotoSerifCJKhk/OTF/TraditionalChineseHK/NotoSerifCJKhk-ExtraLight.otf') format('opentype');
+}
+
+@font-face {
+   font-family: 'Noto Serif TC';
+   font-style: normal;
+   src: url('./fonts/NotoSerifTC/NotoSerifTC-ExtraLight.otf') format('opentype');
 }
 
 .chiron {
@@ -32,8 +44,10 @@
 </style>
 </head>
 <body>
-   <p style="font-family: 'Noto Sans TC'">This line is rendered using server's font 'Noto Sans TC', webkit-independent and locale-independent 此行使用伺服器的字體「Noto Sans TC」呈現。香港增補字集:騟鰂</p>
+   <p style="font-family: 'Noto Serif TC'">This line is rendered using server's font 'Noto Sans TC', webkit-independent and locale-independent 此行使用伺服器的字體「Noto Sans TC」呈現。香港增補字集:騟鰂</p>
    <p class="chiron">This line is rendered using server's font 'Chiron Sung HK WS', webkit-independent and locale-independent 此行使用伺服器的字體「Chiron Sung HK WS」呈現。香港增補字集:騟鰂</p>
+   <p style="font-family: 'Noto Sans CJK hk'">This line is rendered using server's font 'Noto Sans CJKhk', webkit-independent and locale-independent 此行使用伺服器的字體「Noto Sans CJKhk」呈現。香港增補字集:騟鰂</p>
+   <p style="font-family: 'Noto Serif CJK hk'">This line is rendered using server's font 'Noto Serif CJK hk', webkit-independent and locale-independent 此行使用伺服器的字體「Noto Serif CJK hk」呈現。香港增補字集:騟鰂</p>
    <p style="font-family: serif; -webkit-locale: 'zh-hant-hk'">This line is rendered using client's system font, webkit-dependent and locale-dependent 此行使用客戶端的系統字體呈現。香港增補字集:騟鰂</p>
 </body>
 </html>
