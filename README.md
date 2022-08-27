@@ -3,6 +3,10 @@ css-font-playground
 - https://dirkarnez.github.io/css-font-playground/
 
 ### Fonts
+- [chiron-fonts/chiron-sung-hk: 昭源宋體：現代筆形風格，平衡標準字形和印刷體慣用筆形的免費開源宋體字型](https://github.com/chiron-fonts/chiron-sung-hk)
+  - Download the releases
+
+### Font types
 - `woff`
 - `woff2`
 - `otf`

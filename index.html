@@ -13,7 +13,8 @@
 }
 -->
 
-<link rel="stylesheet" href="./fonts/chiron-sung-hk-1.005/WEBFONT/css/css/vf.css">
+<link rel="stylesheet" href="/fonts/chiron-sung-hk-1.005/WEBFONT/css/vf.css">
+
 <style>
 
 @font-face {
@@ -25,13 +26,14 @@
 .chiron {
    font-family: 'Chiron Sung HK WS';
    font-style: normal;
+   font-weight: 100;
 }
 
 </style>
 </head>
 <body>
-   <p style="font-family: 'Noto Sans TC'">這是 「Noto Sans TC」字體。香港增補字集:騟鰂</p>
-   <p style="font-family: serif; -webkit-locale: 'zh-hant-hk'">This line is rendered using client's system font, webkit-dependent and locale-dependent 此行使用客戶騟鰂端的系統鰂字體呈現。香港增補字集:騟鰂</p>
-   <p class="chiron">這是 「Chiron Sung HK WS」字體。香港增補字集:騟鰂</p>
+   <p style="font-family: 'Noto Sans TC'">This line is rendered using server's font 'Noto Sans TC', webkit-independent and locale-independent 此行使用伺服器的字體「Noto Sans TC」呈現。香港增補字集:騟鰂</p>
+   <p class="chiron">This line is rendered using server's font 'Chiron Sung HK WS', webkit-independent and locale-independent 此行使用伺服器的字體「Chiron Sung HK WS」呈現。香港增補字集:騟鰂</p>
+   <p style="font-family: serif; -webkit-locale: 'zh-hant-hk'">This line is rendered using client's system font, webkit-dependent and locale-dependent 此行使用客戶端的系統字體呈現。香港增補字集:騟鰂</p>
 </body>
 </html>
