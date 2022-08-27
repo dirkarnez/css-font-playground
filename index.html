@@ -1,6 +1,19 @@
 <!DOCTYPE html>
 <html>
 <head>
+
+<!--
+@font-face {
+  font-family: 'MyWebFont';
+  src: url('webfont.eot'); /* IE9 Compat Modes */
+  src: url('webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('webfont.woff') format('woff'), /* Modern Browsers */
+       url('webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+-->
+
+<link rel="stylesheet" href="./fonts/chiron-sung-hk-1.005/WEBFONT/css/css/vf.css">
 <style>
 
 @font-face {
@@ -9,12 +22,18 @@
    src: url(fonts/NotoSerifTC/NotoSerifTC-Regular.otf) format('opentype');
 }
 
+.chiron {
+   font-family: 'Chiron Sung HK WS';
+   font-style: normal;
+}
+
 </style>
 </head>
 <body>
-
-<p class="p1" style="font-family: 'Noto Sans TC'">這是 「Noto Sans TC」 字體</p>
-
+   <p style="font-family: 'Noto Sans TC'">這是 「Noto Sans TC」字體 此行使用客戶端的系統字體呈現。香港增補字集:騟鰂</p>
+   <p style="font-family: serif; -webkit-locale: 'zh-hant-hk'">This line is rendered using client's system font, webkit-dependent and locale-dependent 此行使用客戶騟鰂端的系統鰂字體呈現。香港增補字集:騟鰂</p>
+   
+   <p class="chiron">這是 「Noto Sans TC」字體 此行使用客戶端的系統字體呈現。香港增補字集:騟鰂</p>
 </body>
 </html>
 
