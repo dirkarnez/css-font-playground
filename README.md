@@ -6,6 +6,7 @@ css-font-playground
 - [Release · chiron-fonts/chiron-sung-hk](https://github.com/chiron-fonts/chiron-sung-hk/releases/latest)
 - [Releases · googlefonts/noto-cjk](https://github.com/googlefonts/noto-cjk/releases/latest)
   - Sans and Serif included
+- **https://github.com/life888888/cjk-fonts-ttf**
 
 ### Font types
 - `woff`
